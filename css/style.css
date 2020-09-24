@@ -41,6 +41,11 @@ body {
 }
 
 
+.title{
+  background: rgb(213,222,255);
+  background: linear-gradient(180deg, rgba(213,222,255,1) 0%, rgba(249,253,255,1) 70%);
+}
+
 
 p.typing-txt{
   position:relative;

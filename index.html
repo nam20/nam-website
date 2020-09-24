@@ -85,7 +85,7 @@
     </header>
 
 
-    <div class="site-blocks-cover overlay bg-light" id="home-section">
+    <div class="site-blocks-cover overlay bg-light title" id="home-section">
 
       <div class="container">
         <div class="row justify-content-center">
@@ -93,12 +93,13 @@
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
               <div class="col-lg-6">
-                <p class="typing-txt bg" style="font-size:3rem; "><b style="font-size: 5rem;">남희준</b>입니다.</p>
+                <p class=" bg" style="font-size:3rem; " >안녕하세요.</p>
+                <p class=" bg" style="font-size:3rem; "><b style="font-size: 5rem;">남희준</b>입니다.</p>
                
                 
                 <!-- <p class="lead">I'm Web Developer Based on NY City</p> -->
                 <p><a href="#portfolio-section" class="btn smoothscroll btn-primary">프로젝트</a>
-                  <a href="https://github.com/nam20" class="btn smoothscroll btn-primary">깃허브</a>
+                  <a href="https://github.com/nam20" class="btn smoothscroll btn-primary" target="_blank">깃허브</a>
                 </p>
 
               </div>
@@ -149,7 +150,7 @@
           </div>
           <div class="col-lg-6 order-3 order-lg-3" style="font-size: 1.15rem;">
             <p></p>
-            <p >학교에서 프로그래밍 수업을 들으며 개발에 흥미를 느껴 따로 자바 언어를 독학하며 개발을 시작했습니다. 여러 개인 프로젝트를 만들며 사소한 오류를 마주할때마다 오류 해결에 오랜 시간을 잡아먹으면서 회의감이 들 때도 있었지만, 남들이 볼 수 있는 결과물을 완성했을 때 많은 성취감을 느꼈습니다. 저는 더 나은 프로그램을 개발하기 위해 창의적인 개발자가 되고자 합니다. </p>
+            <p >웹 개발에 흥미를 느껴 자바 언어를 독학하며 개발을 시작했습니다. 개인 프로젝트들을 제작하며 사소한 오류를 마주하였을 때, 오류를 해결하느라 많은 시간을 할애할 때마다 개발에 회의감이 들 때도 있었지만, 직접 제작한 프로젝트를 클라우드 서비스를 활용하여 남들이 볼 수 있게 만들어냈을 때 많은 성취감을 느꼈습니다. 이 성취감을 잊지않고 더 다양한 프로그램을 개발하는 개발자가 되기위해 노력하고자 합니다. </p>
             <!-- <p><a href="#contact-section" class="btn smoothscroll btn-primary">Contact Me</a></p> -->
           </div>
           
@@ -253,8 +254,50 @@
         </div>
 
         
+        <div id="posts" class="row no-gutter" >
+          
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/corona-1.PNG" class="item-wrap fancybox">
+              <!-- <span class="icon-search2"></span> -->
+              <img class="img-fluid" src="images/corona-1.PNG">
+             
+            </a>
+            <a href="images/corona-2.PNG" class="item-wrap  fancybox" >
+            
+             
+            </a>
+            <a href="images/corona-3.PNG" class="item-wrap  fancybox" >
+            
+             
+            </a>
+            
+          </div>
+
+          <div class="item web col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 mb-8">
+            
+            <h3>코로나 보드</h3>
+
+            <span  class="stack">Vue.js</span>
+
+            <span  class="stack">Spring Boot</span>
+            <span  class="stack">Chart.js & Google Chart</span>
+            <span  class="stack">AWS EC2</span>
+            
+            
+            <!-- <p>제작 기간: 2020.03</p> -->
+            <!-- <p>사용 기술: Node.js, MySql, Sequelize, OAuth, Redis, Vue.js, SSL 인증서, AWS S3, GCP 배포</p> -->
+            <!-- <p>주요 기능: CRUD, 좋아요, 팔로우, 무한 스크롤, 소셜 로그인, S3 이미지 업로드</p> -->
+            <p style="margin-top: 15px;">코로나 19의 확진 현황에 대한 다양한 정보를 접할 수 있는 웹 페이지입니다. 국내외의 확진자수 증가추이나 국가별 확진자 발생분포, 국내의 도시별, 연령대별, 성별 확진 정보를 차트로 시각화하여 나타내었습니다. AWS EC2를 통해 배포 중입니다.
+
+            </p>
+            <a href="https://namcovid.duckdns.org" class="btn smoothscroll btn-primary" target="_blank">웹 사이트</a>
+            <a href="https://github.com/nam20/nam-covid19-vue" class="btn smoothscroll btn-primary" target="_blank">깃허브</a>
+           </div>
+
+        </div>
 
         
+
         <div id="posts" class="row no-gutter" >
           
           <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
@@ -286,7 +329,6 @@
             <span  class="stack">REST API</span>
             <span  class="stack">Redis</span>
             <span  class="stack">OAuth</span>
-            <span  class="stack">SSL</span>
             <span  class="stack">AWS S3</span>
             <span  class="stack">GCP</span>
             
@@ -294,61 +336,14 @@
             <!-- <p>사용 기술: Node.js, MySql, Sequelize, OAuth, Redis, Vue.js, SSL 인증서, AWS S3, GCP 배포</p> -->
             <!-- <p>주요 기능: CRUD, 좋아요, 팔로우, 무한 스크롤, 소셜 로그인, S3 이미지 업로드</p> -->
             <p style="margin-top: 15px;">간단한 SNS를 구현하고자 만든 프로젝트입니다. 게시글 작성, 좋아요, 해시태그, 유저 팔로우, 무한 스크롤, S3 이미지 업로드 등의 기능이 있습니다.
-              OAuth를 통해 소셜 로그인이 가능하며, SSL 인증서를 발급받아 HTTPS가 적용되었습니다. 서버는 Node.js와 Express 프레임워크를 사용하였고, 프론트엔드는 Vue.js로 개발했으며, GCP를 통해 배포 중입니다.
+              OAuth를 통해 구글, 카카오 계정을 이용해 로그인 할 수 있습니다. 서버는 Node.js와 Express 프레임워크를 사용하였고, 프론트엔드는 Vue.js로 개발했으며, GCP를 통해 배포 중입니다.
             </p>
             <a href="https://skagmlwns123.duckdns.org" class="btn smoothscroll btn-primary" target="_blank">웹 사이트</a>
-            <a href="https://github.com/nam20/nam-sns-node-vue" class="btn smoothscroll btn-primary">깃허브</a>
+            <a href="https://github.com/nam20/nam-sns-node-vue" class="btn smoothscroll btn-primary" target="_blank">깃허브</a>
            </div>
 
         </div>
 
-
-
-
-
-        <div id="posts" class="row no-gutter" >
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/crud1.PNG" class="item-wrap fancybox">
-              <!-- <span class="icon-search2"></span> -->
-              <img class="img-fluid" src="images/crud1.PNG">
-            </a>
-            <a href="images/crud5.PNG" class="item-wrap  fancybox" >
-            </a>
-            <a href="images/crud2.PNG" class="item-wrap  fancybox" >
-            </a>
-
-            <!-- <a href="images/crud3.PNG" class="item-wrap  fancybox" >
-            </a> -->
-
-            <a href="images/crud4.PNG" class="item-wrap  fancybox" >
-            </a>
-            
-          </div>
-          
-          <div class="item web col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 mb-8">
-            <br>
-            <h3>CRUD 게시판</h3>
-
-            <span  class="stack">Spring Boot</span>
-            <span  class="stack">Thymeleaf</span>
-            <span  class="stack">AJAX</span>
-            <span  class="stack">MySql&MyBatis</span>
-            
-            <!-- <p>제작 기간: 2019.12</p>
-            <p>사용 기술: SpringBoot, Thymeleaf, AJAX, MySql, MyBatis</p> -->
-            <!-- <p>주요 기능: 페이징, 검색, 계단식 답글, 댓글, 1대1 채팅</p> -->
-            <p style="margin-top: 15px;">처음으로 만든 개인 프로젝트입니다. 기본적인 로그인, 회원가입, CRUD와 1대1 채팅, 읽지 않은 메시지 표시, 게시글 검색, 계단식 답글, 페이징 등의 기능을 갖춘 게시판입니다. 
-              서버는 Spring Boot, 프론트엔드는 Thymeleaf 템플릿 엔진을 사용하여 개발했습니다.
-            </p>
-            <a href="https://github.com/nam20/nam-spring-webservice" class="btn smoothscroll btn-primary">깃허브</a>
-          </div>
-
-        </div>
-
-
-
-        
 
         <div id="posts" class="row no-gutter" >
           
@@ -389,14 +384,62 @@
             <p style="margin-top: 15px;">카카오 지도 API를 활용한 맛집 리뷰 사이트입니다. 지도에서 음식점을 검색할 수 있으며 검색된 음식점에 리뷰를 남기며 평점을 매길 수 있습니다.
                
                리뷰의 댓글 란에는 웹소켓이 적용되어 실시간으로 등록된 댓글을 확인할 수 있습니다.
-                 서버는 Spring Boot, 프론트엔드는 Vue.js를 사용해 개발했습니다. AWS EC2를 통해 배포 중입니다.
+                 서버는 Spring Boot, 프론트엔드는 Vue.js를 사용해 개발했습니다.
             </p>
-            <a href="http://ec2-18-216-19-135.us-east-2.compute.amazonaws.com:8080" class="btn smoothscroll btn-primary" target="_blank">웹 사이트</a>
-            <a href="https://github.com/nam20/nam-springboot-vue-map" class="btn smoothscroll btn-primary">깃허브</a>
+            <!-- <a href="http://ec2-18-216-19-135.us-east-2.compute.amazonaws.com:8080" class="btn smoothscroll btn-primary" target="_blank">웹 사이트</a> -->
+            <a href="https://github.com/nam20/nam-springboot-vue-map" class="btn smoothscroll btn-primary" target="_blank">깃허브</a>
             
            </div>
 
         </div>
+
+
+
+        <div id="posts" class="row no-gutter" >
+
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/crud1.PNG" class="item-wrap fancybox">
+              <!-- <span class="icon-search2"></span> -->
+              <img class="img-fluid" src="images/crud1.PNG">
+            </a>
+            <a href="images/crud5.PNG" class="item-wrap  fancybox" >
+            </a>
+            <a href="images/crud2.PNG" class="item-wrap  fancybox" >
+            </a>
+
+            <!-- <a href="images/crud3.PNG" class="item-wrap  fancybox" >
+            </a> -->
+
+            <a href="images/crud4.PNG" class="item-wrap  fancybox" >
+            </a>
+            
+          </div>
+          
+          <div class="item web col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 mb-8">
+            <br>
+            <h3>CRUD 게시판</h3>
+
+            <span  class="stack">Spring Boot</span>
+            <span  class="stack">Thymeleaf</span>
+            <span  class="stack">AJAX</span>
+            <span  class="stack">MySql&MyBatis</span>
+            
+            <!-- <p>제작 기간: 2019.12</p>
+            <p>사용 기술: SpringBoot, Thymeleaf, AJAX, MySql, MyBatis</p> -->
+            <!-- <p>주요 기능: 페이징, 검색, 계단식 답글, 댓글, 1대1 채팅</p> -->
+            <p style="margin-top: 15px;">처음으로 만든 개인 프로젝트입니다. 기본적인 로그인, 회원가입, CRUD와 1대1 채팅, 읽지 않은 메시지 표시, 게시글 검색, 계단식 답글, 페이징 등의 기능을 갖춘 게시판입니다. 
+              서버는 Spring Boot, 프론트엔드는 Thymeleaf 템플릿 엔진을 사용하여 개발했습니다.
+            </p>
+            <a href="https://github.com/nam20/nam-spring-webservice" class="btn smoothscroll btn-primary" target="_blank">깃허브</a>
+          </div>
+
+        </div>
+
+
+
+        
+
+        
 
       </div>
 
@@ -567,7 +610,7 @@
           </div>-->
         </div> 
         <div style="text-align: center;">
-          <p>Copyright ⓒ 2020. HeeJun Nam. all rights reserved.</p> 
+          <p>ⓒ 2020. HeeJun Nam. all rights reserved.</p> 
         </div>
         <!-- <div class="row">
           <div class="col-12 text-center">
