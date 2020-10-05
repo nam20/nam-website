@@ -19,25 +19,31 @@ body {
 .skill-logo {
   width: 70px;
   height: 70px;
-  margin-right: 15px;
+  
 }
 
 .no-gutter{
   margin: 50px 0;
 }
 
+.ns{
+  font-family: 'Noto Sans KR', sans-serif;
+}
 
+.jg{
+  font-family: 'Jeju Gothic', sans-serif;
+}
 
 .stack {
-  background-color:
-   #201e83;padding: 2px 5px;
-   color: #fff;
-   font-weight: 600;
-   font-size: 0.9rem;
-   letter-spacing: .08rem;
-   margin: 0 5px 5px 0;
-   font-family: "Manrope","Spoqa Han Sans","Spoqa Han Sans JP",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto",
-   "Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  background-color: #666666;
+  padding: 2px 5px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: .08rem;
+  margin: 0 5px 5px 0;
+  font-family: "Manrope","Spoqa Han Sans","Spoqa Han Sans JP",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto",
+  "Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
 }
 
 
